@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-top: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+       .main1{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        
+       }
+       .main1 img{
+        width: 100%;
+        height: 100vh;
+       }
+       .sec1{
+        position: absolute;
+        top: -270px;
+        left: 140px;
+
+       }
+       .sec1 img{
+        margin-top: 0px;
+        width: 150px
+       }
+       .sec2{
+        position: relative;
+        margin-top: -600px;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 160px;
+        left: 10px;
+        color: antiquewhite;
+        text-align: center;
+       }
+       .sec2 h1{
+        margin: 5px;
+        }
+       .sec2 p{
+        margin: 30px;
+        font-size: 16px;
+       }
+       .sec3{
+        position: absolute;
+        top: 460px;
+        left: 390px;
+       }
+       .sec3 input{
+        width: 370px;
+        height: 50px;
+        background-color: rgba(15, 14, 14, 0.5);
+        color: azure;
+        border-radius: 5px;
+        border: 1.9px solid rgb(226, 52, 52);
+       }
+       .sec3 ::placeholder{
+        font-size: 1rem;
+        font-style: inherit;
+        padding-left: 18px;
+
+       }
+      .sec3 button{
+        width: 220px;
+        height: 54px;
+        border-radius: 5px;
+        background-color: rgb(236, 29, 29);
+        border-color: rgb(236, 29, 29);
+        color: azure;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .sec4{
+        position: absolute;
+        top: 27px;
+        right: 150px; 
+        
+      }
+      .sec4 select{
+        width: 120px;
+        height: 35px;
+        background-color: rgb(24, 22, 22, 0.5);
+        color: azure;
+        border-radius: 4px;
+        font-size: 15px;
+        padding-left: 29px;
+      }
+      .sec4 button{
+        width: 80px;
+        height: 37px;
+        border-radius: 4px;
+        border-color: rgb(236, 29, 29);
+        background-color: rgb(236, 29, 29);
+        color: azure;
+        font-size: 15px;
+      }
+      .sec4 a{
+        text-decoration: none;
+        color: azure;
+      }
+      .main2{
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+
+      }
+      .m1{
+        position: relative;
+        background-color: rgba(63, 28, 95, 0.5);
+        width: 70%;
+        height: 80px;
+        color: azure;
+        left: 15%;
+        font-size: large;
+        top: 60px;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+
+      }
+      .m1:hover{
+        transform: scale(1.1);
+      }
+      .m11{
+        position: absolute;
+
+      }
+      .m11 img{
+        width: 80px;
+        
+      }
+      .m12{
+        position: absolute;
+        left: 100px;
+        margin-top: 7px;
+      }
+      .m12 h3{
+        margin-bottom: 5px;
+      
+      }
+      .m12 p,h3{
+        margin-top: 5px;
+      }
+      .m13{
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        width: 100px;
+      }
+      .m13 button{
+        background-color: rgba(185, 180, 180, 0.5);
+        color: azure;
+        width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        font-size: 15px;
+      }
+      .m2{
+        position: relative;
+        width: 70%;
+        left: 150px;
+      }
+      .m2 td{
+        padding-left: 30px;
+      }
+      .r1{
+        position: relative;
+        top: 150px;
+        transition: transform 0.3s ease;
+
+      }
+      .r1:hover{
+        transform: scale(1.1);
+      }
+      .r1 img{
+        width: 170px;
+        border-radius: 7px
+      }
+      .r11{
+        position: absolute;
+        top: 160px;
+        right: 115px;
+      }
+      .r11 img{
+        width: 100px;
+      }
+      .r12{
+        position: absolute;
+        top: 165px;
+        right: 95px;
+      }
+      .r12 img{
+        width: 100px;
+      }
+      .r13{
+        position: absolute;
+        top: 165px;
+        right: 95px;
+      }
+      .r13 img{
+        width: 100px;
+      }
+      .r14{
+        position: absolute;
+        top: 165px;
+        right: 90px;
+      }
+      .r14 img{
+        width: 100px;
+      }
+      .r15{
+        position: absolute;
+        top: 165px;
+        right: 90px;
+      }
+      .r15 img{
+        width: 100px;
+      }
+
+      
+        
+      
+    </style>
+    
+</head>
+<body>
+    <div class="main1">
+        <img src="netflix.jpeg" alt="" style="filter: brightness(50%);">
+        <div class="sec1">
+            <img src="Netflix_2015_logo.svg" alt="">
+        </div>
+        <div class="sec2">
+            <h1>Unlimited movies, </h1>
+            <h1>TV shows and more</h1>
+            <p>Starts at ₹149. Cancel at anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div class="sec3">
+            <table>
+                <tr>
+                    <td><input type="email" placeholder="Email address"></td>
+                    <td><button>Get started</button></td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="sec4">
+            <table>
+                <tr>
+                    <td>
+                        <select name="" id="">
+                            <option value="">English</option>
+                            <option value="">Tamil</option>
+                        </select>
+                    </td>
+                    <td><button><a href="signin.html">Sign in</a></button></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+    <div class="main2">
+        <div class="m1">
+            <div class="m11">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/042/236/044/small/ai-generated-popcorn-in-striped-box-isolated-on-transparent-background-png.png" alt="">
+
+            </div>
+            <div class="m12">
+                <h3>The Netflix you love for just US$6.99</h3>
+                <p>Get our most affordable, advert-supported plan</p>
+
+            </div>
+            <div class="m13">
+                <button>Learn more</button>
+
+            </div>
+
+        </div>
+        <div class="m2">
+            <table>
+                <tr>
+                    <td>
+                        <div class="r1">
+                            <img src="https://m.media-amazon.com/images/M/MV5BNTAzMGQ2MGItMjk5OC00YWIwLThmMjUtYmNjMTIxNzVlZWQ4XkEyXkFqcGc@._V1_QL75_UX190_CR0,8,190,281_.jpg
+                            " alt="">
+                            
+                            <div class="r11">
+                                <img src="pngimg.com - number1_PNG14873.png" alt="">
+
+                            </div>
+                        </div>
+                       
+                    </td>
+                    <td>
+                        <div class="r1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8AH_1v5eGwnDegdFaDl0KiJsMMPAgl5F58w&s" alt="">
+                            
+                            <div class="r12">
+                                <img src="https://freepngimg.com/thumb/numbers/2-2-2-number-png-thumb.png" alt="">
+
+                            </div>
+                        </div>
+                       
+                    </td>
+                    <td>
+                        <div class="r1">
+                            <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00412521-gnjnltmafy-portrait.jpg" alt="">
+                            
+                            <div class="r13">
+                                <img src="https://freepngimg.com/thumb/numbers/5-2-3-number-png-thumb.png" alt="">
+
+                            </div>
+                        </div>
+                       
+                    </td>
+                    <td>
+                        <div class="r1">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/e/e8/Kanguva_poster.jpg" alt="">
+                            
+                            <div class="r14">
+                                <img src="https://freepngimg.com/thumb/numbers/1-2-4-number-png-thumb.png" alt="">
+
+                            </div>
+                        </div>
+                       
+                    </td>
+                    <td>
+                        <div class="r1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyVoLsX9vSYzjBMRoQE8Y-fmQAgCo4konABQ&s" alt="">
+                            
+                            <div class="r15">
+                                <img src="https://freepngimg.com/thumb/numbers/128655-stylish-number-picture-free-download-image-thumb.png" alt="">
+
+                            </div>
+                        </div>
+                       
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+    </div>
+</body>
+</html>
